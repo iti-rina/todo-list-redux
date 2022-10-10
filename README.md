@@ -3,6 +3,8 @@
 You can create a project (category of tasks), add, delete, mark tasks as completed and change its priorities. Also a user have an opportunity to filter tasks by priority (_high, medium, low_) and status (_all, completed, uncompleted_).\
 All the data stores in local storage.
 
+![todo-list-interface](./docs/img/todo-app.png?raw=true)
+
 ## Stack
 
 - React
