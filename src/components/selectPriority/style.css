@@ -1,0 +1,21 @@
+.task__priority {
+  border-radius: 8px;
+  padding: 0 15px;
+}
+
+.task__priority_high {
+  background-color: #EA5959;
+  color: #fff;
+}
+
+.task__priority_medium{
+background-color: #EEA2A2;
+color: #2A2A2A;
+
+}
+
+.task__priority_low{
+  background-color: #F3F3F3;
+  color: #2A2A2A;
+  
+}

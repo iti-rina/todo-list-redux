@@ -1,0 +1,44 @@
+.priority-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.priority-filters__options {
+  font-size: 13.3px;
+}
+
+.priority__checkbox_input {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.priority__checkbox_icon {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  border: 2px solid #EA5959;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 1px;
+}
+
+.checkbox_active {
+  border: 1px solid #EA5959;
+  background-color: #EA5959;
+}
+
+.priority {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+

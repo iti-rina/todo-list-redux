@@ -1,0 +1,55 @@
+.task-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 18px;
+  max-width: 678px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.task__text {
+  flex-grow: 1;
+  line-break: loose;
+  white-space: normal;
+  word-break: break-all;
+
+}
+
+.task__delete-btn {
+  justify-self: flex-end;
+}
+
+
+/*  */
+.task__checkbox_input {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.task__checkbox_icon {
+  display: inline-block;
+  height: 28px;
+  width: 28px;
+  background: #fff;
+  border: 2px solid #EA5959;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-right: 4px;
+}
+
+.checkbox_active {
+  border: 2px solid #EA5959;
+  background-color: #EA5959;
+}
+
+

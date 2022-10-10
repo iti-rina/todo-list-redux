@@ -1,13 +1,80 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root {
+  --main-font: 'Lato', sans-serif;
+  --main-font-color: #5A5A5A;
+  --sidebar-font-color: #525252;
+  --accent-color: #EA5959;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+ul, li {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--accent-color);
+  font-family: var(--main-font);
+  color: var(--main-font-color);
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 0;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+
+button {
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 983px;
+  min-height: 702px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 160px auto;
+  padding: 30px 50px;
+}
+
+.sidebar {
+  width: 209px;
+  color: var(--sidebar-font-color);
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: 1 0 auto;
 }

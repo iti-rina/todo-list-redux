@@ -1,0 +1,73 @@
+:root {
+  --accent-color: #EA5959;
+  --background-color: #F3F3F3;
+  --main-font-color: #525252;
+  --inactive-color: #B5B5B5;
+}
+
+.add-task {
+  display: flex;
+  gap: 15px;
+  border: none;
+  border-radius: 8px;
+  height: 47px;
+  padding: 0 15px;
+  align-items: center;
+  color: var(--main-font-color);
+}
+
+.add-task-container {
+  transition: background-color .5s;
+  border-radius: 8px;
+}
+.add-task-container:hover {
+  background-color: var(--background-color);
+}
+
+.add-task:focus-within {
+  background-color: var(--background-color);
+}
+
+.add-task__input-line {
+  background-color: inherit;
+  color: inherit;
+  flex-grow: 1;
+}
+
+.add-task__input-line::placeholder {
+  color: var(--inactive-color);
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 27px;
+  font-size: 18px;
+}
+
+.add-task__input-line:focus {
+  outline: none;
+}
+
+.add-task__select {
+  background-color: inherit;
+  color: var(--inactive-color);
+  cursor: pointer;
+}
+
+.add-task__select:hover {
+  color: var(--main-font-color);
+}
+
+.add-task__add-btn {
+  width: 20px;
+  height: 20px;
+  color: var(--accent-color);
+  border-radius: 50%;
+  transition: color .5s, padding .5s, background-color .5s;
+}
+
+.add-task__add-btn:hover {
+  color: #fff;
+  background-color: var(--accent-color);
+  padding: 5px;
+}
+
+

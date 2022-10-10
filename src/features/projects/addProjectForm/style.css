@@ -1,0 +1,34 @@
+:root {
+  --accent-color: #EA5959;
+  --background-color: #F3F3F3;
+  --main-font-color: #525252;
+  --inactive-color: #B5B5B5;
+}
+
+.add-project-container {
+  transition: background-color .5s;
+  border-radius: 8px;
+}
+
+.add-project-container:hover {
+  background-color: var(--background-color);
+  padding-left: 10%;
+}
+
+.add-project {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-project__input-line {
+  background-color: inherit;
+  color: var(--main-font-color);
+}
+
+.add-project__input-line:hover {
+  padding-left: 5%;
+}
+
+.add-project__input-line::placeholder {
+  color: var(--inactive-color);
+}

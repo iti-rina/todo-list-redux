@@ -1,0 +1,27 @@
+.status-filters {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  max-width: fit-content;
+  gap: 10px;
+}
+
+.status-filters__options {
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+}
+
+.options__button {
+  color: #5A5A5A;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.options__button {
+  text-align: left;
+}
+
+.selected.options__button {
+  color: #EA5959;
+}

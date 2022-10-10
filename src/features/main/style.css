@@ -1,0 +1,7 @@
+.main-container {
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  flex-grow: 1;
+}
