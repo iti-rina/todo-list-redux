@@ -16,7 +16,7 @@ All the data stores in local storage.
 2. Build image:
    `docker build -t todo-list-redux:1.0 .`
 3. Run containerized app:
-   `docker run -p 3000:3000 todo-list-redux:1.0`
+   `docker run -d -p 3000:3000 todo-list-redux:1.0`
 
 You can now view the app in the browser on `http://localhost:3000`
 
